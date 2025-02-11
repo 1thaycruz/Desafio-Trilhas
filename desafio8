@@ -1,0 +1,2 @@
+// 8. Exibindo nome e idade com concatenação
+console.log(Olá, meu nome é ${nome} e eu tenho ${idade} anos);
