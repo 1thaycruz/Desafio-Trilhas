@@ -1,0 +1,6 @@
+// 14. Comentários e soma de dois números
+// Criando um programa que soma dois números
+function somarNumeros(a, b) {
+    return a + b;
+}
+console.log(A soma de 5 e 10 é: ${somarNumeros(5, 10)});
