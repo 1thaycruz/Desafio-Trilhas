@@ -1,0 +1,5 @@
+// 13. Função para calcular a área de um círculo
+function calcularAreaCirculo(raio) {
+    return Math.PI * Math.pow(raio, 2);
+}
+console.log(Área do círculo: ${calcularAreaCirculo(5)});
