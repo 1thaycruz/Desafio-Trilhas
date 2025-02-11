@@ -1,0 +1,4 @@
+// 2. Criando variáveis idade e altura e exibindo os valores
+let idade = 25;
+let altura = 1.75;
+console.log(Idade: ${idade}, Altura: ${altura});
