@@ -1,0 +1,21 @@
+//10.Simulando entradas do usuário com um array
+let entradas = [3, 8, 2, 5]; // O usuário "digitaria" esses números
+let index = 0;
+let numeroDigitado;
+
+do {
+    numeroDigitado = entradas[index]; // Pegando o próximo número do array
+    console.log("Número digitado:", numeroDigitado);
+    index++;
+} while (numeroDigitado != 5);
+
+console.log("Você digitou 5. O loop foi encerrado.");
+
+let valorDigitado;
+
+do {
+    numeroDigitado = Math.floor(Math.random() * 10); // Gera um número de 0 a 9
+    console.log("Número gerado:", numeroDigitado);
+} while (numeroDigitado != 5);
+
+console.log("O número 5 foi gerado. Loop encerrado.");
