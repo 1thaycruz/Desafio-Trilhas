@@ -1,0 +1,6 @@
+// 15. Refatoração do código para boas práticas
+function somarValores(valor1, valor2) {
+    return valor1 + valor2;
+}
+let resultado = somarValores(10, 20);
+console.log(Resultado da soma: ${resultado});
